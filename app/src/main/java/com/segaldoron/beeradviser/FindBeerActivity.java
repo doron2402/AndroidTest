@@ -72,4 +72,11 @@ public class FindBeerActivity extends AppCompatActivity {
         //Display the beers
         brands.setText(brandsFormatted);
     }
+
+    public void onClickFindByCountry(View view) {
+        TextView brands = (TextView) findViewById(R.id.brands);
+        Spinner country = (Spinner) findViewById(R.id.country);
+        String countryItem = String.valueOf(country.getSelectedItem());
+        brands.setText("You Choose " + countryItem);
+    }
 }

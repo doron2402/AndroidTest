@@ -39,4 +39,23 @@
         android:layout_marginTop="18dp"
         android:text="@string/brands" />
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/countries"
+        android:layout_toStartOf="@+id/findByCountry" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_by_country"
+        android:id="@+id/findByCountry"
+        android:layout_alignTop="@+id/country"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickFindByCountry" />
+
 </RelativeLayout>

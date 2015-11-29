@@ -11,4 +11,10 @@
         <item>brown</item>
         <item>dark</item>
     </string-array>
+    <string-array name="countries">
+        <item id="972">Israel</item>
+        <item id="44">UK</item>
+        <item id="1">USA</item>
+    </string-array>
+    <string name="find_by_country">Search!</string>
 </resources>
